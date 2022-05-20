@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.timeshopper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Admin.AdminUserProductsActivity"></activity>
+        <activity android:name=".Admin.AdminCheckNewProductsActivity" />
+        <activity android:name=".Admin.AdminNewOrdersActivity" />
+        <activity android:name=".Buyer.ConfirmFinalOrderActivity" />
+        <activity android:name=".Admin.AdminMaintainProductsActivity" />
+        <activity android:name=".Admin.AdminAllProductActivity" />
+        <activity android:name=".Buyer.ProductDetailsActivity" />
+        <activity android:name=".Buyer.SellerProductActivity" />
+        <activity android:name=".Seller.SellerAddNewProductActivity" />
+        <activity android:name=".Seller.SellerProductCategoryActivity" />
+        <activity
+            android:name=".Seller.SellerHomeActivity"
+            android:label="@string/title_activity_seller_home" />
+        <activity android:name=".Seller.SellerLoginActivity" />
+        <activity android:name=".Seller.SellerRegistrationActivity" />
+        <activity android:name=".Buyer.CartActivity" />
+        <activity android:name=".Admin.AdminLoginActivity" />
+        <activity android:name=".Admin.AdminHomeActivity" />
+        <activity
+            android:name=".Buyer.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

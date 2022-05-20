@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "983303308228",
+    "firebase_url": "https://timeshopper-52d83.firebaseio.com",
+    "project_id": "timeshopper-52d83",
+    "storage_bucket": "timeshopper-52d83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983303308228:android:d08a0c72b735afc3c7da91",
+        "android_client_info": {
+          "package_name": "com.example.timeshopper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983303308228-4pka9i2ir4oqih9ndn97j3q36uif5tvq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.timeshopper",
+            "certificate_hash": "e6daaa6e61e087647cd1afe74228d4befb972114"
+          }
+        },
+        {
+          "client_id": "983303308228-odsbj46ksu217n844us7oa6p8bpb7dcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABMG8lkQtO8vz_MR2MxdAgZOoFSDtNI4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983303308228-odsbj46ksu217n844us7oa6p8bpb7dcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

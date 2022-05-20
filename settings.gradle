@@ -1,0 +1,2 @@
+rootProject.name='TimeShopper'
+include ':app'
